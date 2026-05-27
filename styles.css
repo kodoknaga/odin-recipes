@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Fuzzy Bubbles", sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap");
+}
+
+* {
+    font-family: "Fuzzy Bubbles", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(26, 0, 99);
+}
+
+ul, li{
+    list-style-position: outside;
+    list-style-type: none;
+    padding: 1rem;
+    margin-left: -1rem;
+}
+
+
+img{
+    max-width: 20rem;
+    display: block;
+}
+
+
+.main-menu {
+    font-size: 34px;
+    font-weight: 700;
+    
+}
