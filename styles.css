@@ -7,21 +7,35 @@
     font-family: "Fuzzy Bubbles", sans-serif;
 }
 
+div{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 a{
     text-decoration: none;
     color: rgb(26, 0, 99);
 }
 
+
 ul, li{
     list-style-position: outside;
     list-style-type: none;
-    padding: 1rem;
+    padding: 0.5rem;
     margin-left: -1rem;
+    display: inline-flex;
+}
+
+ul> li {
+    padding: 0 2rem;
+    margin: 0.5rem;
+    max-width: 20%;
 }
 
 
 img{
-    max-width: 20rem;
+    max-width: 15rem;
     display: block;
 }
 
@@ -30,4 +44,17 @@ img{
     font-size: 34px;
     font-weight: 700;
     
+}
+
+@media screen and (max-width: 600px) {
+    ul{
+        display: inline-block;
+    }
+
+    ul> li {
+    display: inline-block;
+    padding: 0 1rem;
+    margin: 1rem;
+    max-width: 70%;
+}
 }
